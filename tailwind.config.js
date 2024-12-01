@@ -1,9 +1,6 @@
-
 /** @type {import('tailwindcss').Config} */
 
-
 module.exports = {
-  mode: 'jit',
   content: [
     './index.html',
     './planets/**/*.{html,js}',
@@ -11,24 +8,15 @@ module.exports = {
     './js/**/*.js',
     "./js/*.js"
   ],
-  safelist:[
-    /^text-\[\d+rem\]/,
-    /^w-\[\+rem\]/,
-    /^w-\[\+vw\]/,
-    /^h-\[\+rem\]/,
-    /^h-\[\+vh\]/
+  safelist: [
+    /^text-\[\d+rem\]/,    // для текста с динамическим размером в rem
+    /^w-\[\d+rem\]/,       // для ширины с динамическим значением в rem
+    /^w-\[\d+vw\]/,        // для ширины с динамическим значением в vw
+    /^h-\[\d+rem\]/,       // для высоты с динамическим значением в rem
+    /^h-\[\d+vh\]/         // для высоты с динамическим значением в vh
   ],
-  // content: ["index.html", 
-  //   "/planets/mercury/mercury.html",
-  //   "/planets/venus/venus.html", 
-  //   "/planets/earth/earth.html", 
-  //   "/planets/mars/mars.html", 
-  //   "/planets/jupiter/jupiter.html",
-  //   "/planets/saturn/saturn.html",
-  //   "/planets/uranus/uranus.html", 
-  //   "/planets/neptun/neptun.html",],
   theme: {
-    screens:{
+    screens: {
       "extra": "2560px",
       "actual": "1920px",
       'laptop': '1600px',
@@ -38,21 +26,18 @@ module.exports = {
       'phones': '800px',
     },
     extend: {
-      backgroundImage:{
-        "solar-sys": "url('./img/backround/Galaxy Starry Night.jpg')",
-        "slider": "url('./img/backround/image.png')"
+      backgroundImage: {
+        "solar-sys": "url('/img/backround/Galaxy Starry Night.jpg')",  // Путь исправлен на относительный
+        "slider": "url('/img/backround/image.png')"                    // Путь исправлен на относительный
       },
-      fontFamily:{
+      fontFamily: {
         itim: ["Itim", "cursive"],
         inter: ["Inter", "cursive"],
       },
-      colors:{
+      colors: {
         block: "#333333",
       },
-
-
     },
   },
   plugins: [],
 }
-
