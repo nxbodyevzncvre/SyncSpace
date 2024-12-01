@@ -4,8 +4,12 @@
 
 module.exports = {
   mode: 'jit',
-  purge: [
-    './**/*.html'
+  content: [
+    './index.html',
+    './planets/**/*.{html,js}',
+    './css/planets/**/*.css',
+    './js/**/*.js',
+    "./js/*.js"
   ],
   // content: ["index.html", 
   //   "/planets/mercury/mercury.html",
