@@ -17,7 +17,7 @@ module.exports = {
     /^w-\[\+vw\]/,
     /^h-\[\+rem\]/,
     /^h-\[\+vh\]/
-  ]
+  ],
   // content: ["index.html", 
   //   "/planets/mercury/mercury.html",
   //   "/planets/venus/venus.html", 
