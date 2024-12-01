@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+/* input.css */
+@import './planets/earth/earth.css';
+@import './planets/jupiter/jupiter.css';
+@import './planets/mars/mars.css';
+@import './planets/venus/venus.css';
+@import './planets/mercury/mercury.css';
+@import './planets/saturn/saturn.css';
+@import './planets/uranus/uranus.css';
+@import './planets/neptun/neptun.css';
+/* и так далее для всех планет */
+
 
 .swiper-button-next,
 .swiper-button-prev {

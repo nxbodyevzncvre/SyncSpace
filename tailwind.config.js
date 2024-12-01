@@ -28,8 +28,8 @@ module.exports = {
     },
     extend: {
       backgroundImage:{
-        "solar-sys": "url('img/backround/Galaxy Starry Night.jpg')",
-        "slider": "url('img/backround/image.png')"
+        "solar-sys": "url('./img/backround/Galaxy Starry Night.jpg')",
+        "slider": "url('./img/backround/image.png')"
       },
       fontFamily:{
         itim: ["Itim", "cursive"],
@@ -37,9 +37,6 @@ module.exports = {
       },
       colors:{
         block: "#333333",
-      },
-      fontSize:{
-        xl: "10rem",
       },
 
 
