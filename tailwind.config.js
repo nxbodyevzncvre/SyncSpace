@@ -11,6 +11,13 @@ module.exports = {
     './js/**/*.js',
     "./js/*.js"
   ],
+  safelist:[
+    /^text-\[\d+rem\]/,
+    /^w-\[\+rem\]/,
+    /^w-\[\+vw\]/,
+    /^h-\[\+rem\]/,
+    /^h-\[\+vh\]/
+  ]
   // content: ["index.html", 
   //   "/planets/mercury/mercury.html",
   //   "/planets/venus/venus.html", 
