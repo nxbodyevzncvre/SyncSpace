@@ -2,11 +2,12 @@
 
 module.exports = {
   content: [
-    './index.html', // Главная страница
-    './planets/**/*.{html}', // Страницы для каждой планеты
-    './css/**/*.css', // Все CSS файлы
+    './index.html',
+    './planets/**/*.{html,js}',
+    './css/planets/**/*.css',
+    './js/**/*.js',
+    "./js/*.js"
   ],
-  
   safelist: [
     /^text-\[\d+rem\]/,    // для текста с динамическим размером в rem
     /^w-\[\d+rem\]/,       // для ширины с динамическим значением в rem
@@ -26,8 +27,8 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        "solar-sys": "url('/img/backround/Galaxy Starry Night.jpg')",  // Путь исправлен на относительный
-        "slider": "url('/img/backround/image.png')"                    // Путь исправлен на относительный
+        "solar-sys": "url('./img/backround/Galaxy Starry Night.jpg')",  // Путь исправлен на относительный
+        "slider": "url('./img/backround/image.png')"                    // Путь исправлен на относительный
       },
       fontFamily: {
         itim: ["Itim", "cursive"],

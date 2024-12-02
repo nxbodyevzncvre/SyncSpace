@@ -1087,6 +1087,10 @@ video {
   gap: 0px;
 }
 
+.gap-10 {
+  gap: 2.5rem;
+}
+
 .gap-3 {
   gap: 0.75rem;
 }
@@ -1305,6 +1309,10 @@ video {
   padding-bottom: 0.75rem;
 }
 
+.ps-10 {
+  padding-inline-start: 2.5rem;
+}
+
 .ps-5 {
   padding-inline-start: 1.25rem;
 }
@@ -1495,129 +1503,6 @@ video {
 .ease-linear {
   transition-timing-function: linear;
 }
-
-.swiper-button-next,
-.swiper-button-prev {
-  color: #fff;
-  /* Make sure they are visible */
-  opacity: 1;
-}
-
-@keyframes spin-1 {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes spin-2 {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes spin-3 {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes spin-4 {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes spin-5 {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes spin-6 {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes spin-7 {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes spin-8 {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.animate-spin-1 {
-  animation: spin-1 30s linear infinite;
-}
-
-.animate-spin-2 {
-  animation: spin-2 60s linear infinite;
-}
-
-.animate-spin-3 {
-  animation: spin-3 65s linear infinite;
-}
-
-.animate-spin-4 {
-  animation: spin-3 80s linear infinite;
-}
-
-.animate-spin-5 {
-  animation: spin-3 100s linear infinite;
-}
-
-.animate-spin-6 {
-  animation: spin-3 120s linear infinite;
-}
-
-.animate-spin-7 {
-  animation: spin-3 130s linear infinite;
-}
-
-.animate-spin-8 {
-  animation: spin-3 140s linear infinite;
-}
-
-/* *{
-    outline: 3px green solid;
-} */
 
 .hover\:rounded-3xl:hover {
   border-radius: 1.5rem;
