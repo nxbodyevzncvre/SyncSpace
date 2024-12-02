@@ -2,12 +2,11 @@
 
 module.exports = {
   content: [
-    './index.html',
-    './planets/**/*.{html,js}',
-    './css/planets/**/*.css',
-    './js/**/*.js',
-    "./js/*.js"
+    './index.html', // Главная страница
+    './planets/**/*.{html}', // Страницы для каждой планеты
+    './css/**/*.css', // Все CSS файлы
   ],
+  
   safelist: [
     /^text-\[\d+rem\]/,    // для текста с динамическим размером в rem
     /^w-\[\d+rem\]/,       // для ширины с динамическим значением в rem
