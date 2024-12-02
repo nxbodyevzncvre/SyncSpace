@@ -8,13 +8,7 @@ module.exports = {
     './js/**/*.js',
     "./js/*.js"
   ],
-  safelist: [
-    /^text-\[\d+rem\]/,
-    /^w-\[\d+rem\]/,   
-    /^w-\[\d+vw\]/, 
-    /^h-\[\d+rem\]/,
-    /^h-\[\d+vh\]/         
-  ],
+  safelist: [ { pattern: /^(middle:flex-1|middle:flex|middle:items-center|middle:justify-center|middle:my-10|hidden|solar-system|relative|absolute|w- \[\d+rem\] |h- \[\d+rem\] |tablet:w- \[\d+rem\] |tablet:h- \[\d+rem\] |actual:w- \[\d+rem\] |actual:h- \[\d+rem\] |extra:w- \[\d+rem\] |extra:h- \[\d+rem\] |rounded-full|border-2|border-white|animate-spin-\d)$/, variants: ['sm', 'md', 'lg', 'xl', '2xl'],},],
   theme: {
     screens: {
       "extra": "2560px",
