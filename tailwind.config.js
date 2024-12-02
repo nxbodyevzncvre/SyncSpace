@@ -9,11 +9,11 @@ module.exports = {
     "./js/*.js"
   ],
   safelist: [
-    /^text-\[\d+rem\]/,    // для текста с динамическим размером в rem
-    /^w-\[\d+rem\]/,       // для ширины с динамическим значением в rem
-    /^w-\[\d+vw\]/,        // для ширины с динамическим значением в vw
-    /^h-\[\d+rem\]/,       // для высоты с динамическим значением в rem
-    /^h-\[\d+vh\]/         // для высоты с динамическим значением в vh
+    /^text-\[\d+rem\]/,
+    /^w-\[\d+rem\]/,   
+    /^w-\[\d+vw\]/, 
+    /^h-\[\d+rem\]/,
+    /^h-\[\d+vh\]/         
   ],
   theme: {
     screens: {
@@ -27,8 +27,8 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        "solar-sys": "url('./img/backround/Galaxy Starry Night.jpg')",  // Путь исправлен на относительный
-        "slider": "url('./img/backround/image.png')"                    // Путь исправлен на относительный
+        "solar-sys": "url('./img/backround/Galaxy Starry Night.jpg')",
+        "slider": "url('./img/backround/image.png')"        
       },
       fontFamily: {
         itim: ["Itim", "cursive"],
