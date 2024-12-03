@@ -2,13 +2,16 @@
 module.exports = {
   relative: true,
 
-  content: [
+  content: {
+    relative:true,
+    files:[
     './index.html',
     './planets/**/*.html',
     './css/**/*.css',
     './js/**/*.js',
     './js/*.js'
-  ],
+    ],
+  },
   safelist: [
     /^text-\[\d+(rem|px|%)\]/,
     /^w-\[\d+(rem|vw|px|%)\]/,
