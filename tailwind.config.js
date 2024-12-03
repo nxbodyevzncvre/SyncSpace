@@ -12,11 +12,6 @@ module.exports = {
     './js/*.js'
     ],
   },
-  safelist: [
-    /^text-\[\d+(rem|px|%)\]/,
-    /^w-\[\d+(rem|vw|px|%)\]/,
-    /^h-\[\d+(rem|vh|px|%)\]/
-  ],
   theme: {
     screens: {
       extra: '2560px',
