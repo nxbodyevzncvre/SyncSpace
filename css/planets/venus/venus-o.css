@@ -1087,6 +1087,10 @@ video {
   gap: 0px;
 }
 
+.gap-10 {
+  gap: 2.5rem;
+}
+
 .gap-3 {
   gap: 0.75rem;
 }
@@ -1199,11 +1203,11 @@ video {
 }
 
 .bg-slider {
-  background-image: url('./img/backround/image.png');
+  background-image: url('/img/backround/image.png');
 }
 
 .bg-solar-sys {
-  background-image: url('./img/backround/Galaxy Starry Night.jpg');
+  background-image: url('/img/backround/Galaxy Starry Night.jpg');
 }
 
 .bg-cover {
@@ -1303,6 +1307,10 @@ video {
 
 .pb-3 {
   padding-bottom: 0.75rem;
+}
+
+.ps-10 {
+  padding-inline-start: 2.5rem;
 }
 
 .ps-5 {
