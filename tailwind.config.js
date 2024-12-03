@@ -24,8 +24,8 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'solar-sys': "url('img/backround/Galaxy Starry Night.jpg')",
-        'slider': "url('/img/backround/image.png')"
+        'solar-sys': "url('./img/backround/Galaxy Starry Night.jpg')",
+        'slider': "url('./img/backround/image.png')"
       },
       fontFamily: {
         itim: ['Itim', 'cursive'],
