@@ -1654,6 +1654,10 @@ html{
     padding-inline-end: 5rem;
   }
 
+  .tablet\:text-\[1\.5rem\] {
+    font-size: 1.5rem;
+  }
+
   .tablet\:text-\[1\.7rem\] {
     font-size: 1.7rem;
   }
@@ -1676,10 +1680,6 @@ html{
 
   .tablet\:text-\[4rem\] {
     font-size: 4rem;
-  }
-
-  .tablet\:text-\[5rem\] {
-    font-size: 5rem;
   }
 }
 
