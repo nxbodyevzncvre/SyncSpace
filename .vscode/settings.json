@@ -1,3 +1,4 @@
 {
-    "cmake.configureSettings": {}
+    "cmake.configureSettings": {},
+    "liveServer.settings.port": 5501
 }
