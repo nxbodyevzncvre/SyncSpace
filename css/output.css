@@ -1562,8 +1562,16 @@ html{
     margin-bottom: 2.5rem;
   }
 
+  .tablet\:block {
+    display: block;
+  }
+
   .tablet\:flex {
     display: flex;
+  }
+
+  .tablet\:hidden {
+    display: none;
   }
 
   .tablet\:h-\[13rem\] {
@@ -1654,6 +1662,14 @@ html{
     padding-inline-end: 5rem;
   }
 
+  .tablet\:text-start {
+    text-align: start;
+  }
+
+  .tablet\:text-end {
+    text-align: end;
+  }
+
   .tablet\:text-\[1\.5rem\] {
     font-size: 1.5rem;
   }
@@ -1734,14 +1750,6 @@ html{
 }
 
 @media (min-width: 1920px) {
-  .actual\:block {
-    display: block;
-  }
-
-  .actual\:hidden {
-    display: none;
-  }
-
   .actual\:h-\[18rem\] {
     height: 18rem;
   }
@@ -1862,14 +1870,6 @@ html{
 
   .actual\:ps-10 {
     padding-inline-start: 2.5rem;
-  }
-
-  .actual\:text-start {
-    text-align: start;
-  }
-
-  .actual\:text-end {
-    text-align: end;
   }
 
   .actual\:text-\[2\.2rem\] {
