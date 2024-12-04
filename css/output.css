@@ -1000,8 +1000,8 @@ video {
   --tw-bg-opacity: 0.4;
 }
 
-.bg-\[url\(\'\.\/img\/backround\/solar-sys\.png\'\)\] {
-  background-image: url('./img/backround/solar-sys.png');
+.bg-\[url\(\'\/img\/backround\/solar-sys\.png\'\)\] {
+  background-image: url('/img/backround/solar-sys.png');
 }
 
 .bg-cover {
