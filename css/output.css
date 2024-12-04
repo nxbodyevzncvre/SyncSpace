@@ -1000,12 +1000,12 @@ video {
   --tw-bg-opacity: 0.4;
 }
 
-.bg-slider {
-  background-image: url("/img/backround/image.png");
+.bg-\[url\(\'\.\/img\/backround\/solar-sys\.png\'\)\] {
+  background-image: url('./img/backround/solar-sys.png');
 }
 
-.bg-solar-sys {
-  background-image: url('/img/backround/Galaxy Starry Night.jpg');
+.bg-slider {
+  background-image: url("/img/backround/image.png");
 }
 
 .bg-cover {
