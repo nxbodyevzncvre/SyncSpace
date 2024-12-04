@@ -1004,10 +1004,6 @@ video {
   background-image: url('./img/backround/solar-sys.png');
 }
 
-.bg-slider {
-  background-image: url("/img/backround/image.png");
-}
-
 .bg-cover {
   background-size: cover;
 }

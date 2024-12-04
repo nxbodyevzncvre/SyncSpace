@@ -27,10 +27,6 @@ module.exports = {
       'phones': '800px',
     },
     extend: {
-      backgroundImage:{
-        "solar-sys": "url('/img/backround/Galaxy Starry Night.jpg')",
-        'slider': 'url("/img/backround/image.png")',
-      },
       fontFamily:{
         itim: ["Itim", "cursive"],
         inter: ["Inter", "cursive"],
