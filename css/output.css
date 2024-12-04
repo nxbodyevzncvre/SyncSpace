@@ -1001,7 +1001,7 @@ video {
 }
 
 .bg-slider {
-  background-image: url('/img/backround/image.png');
+  background-image: url("/img/backround/image.png");
 }
 
 .bg-solar-sys {
