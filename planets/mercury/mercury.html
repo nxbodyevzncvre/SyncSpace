@@ -80,30 +80,47 @@
     </div>
                 
     <div class="container-fluid px-5">
-        <div class = "container-fluid px-12 py-10  bg-black text-white  rounded-3xl shadow  tablet:text-[4rem] font-itim">
-            <h2 class = "font-bold mb-4 w-auto text-[2rem] laptop:text-[4rem] actual:text-[8rem]">Planet info</h2>
-            <ul class = "list-disc text-[1.4rem] laptop:text-[3rem] laptop:px-6 actual:text-[5rem] actual:px-12">
-                <li>
-                    <p><strong>Size:</strong> 4,880 kilometers</p>
-                </li>
-                <li>
-                    <p><strong>Distance from the sun:</strong>  57.9 million kilometers</p>
-                </li>
-                <li>
-                    <p><strong>Composition:</strong>Mercury is a terrestrial planet with a dense, metal-rich core</p>
-                </li>
-                <li>
-                    <p><strong>Interesting facts:</strong></p>
-                    <ul class = "list-disc text-[1.4rem] px-5 laptop:text-[2rem] actual:text-[4rem] text-slate-400 actual:px-10">
-                        <li>Mercury has almost no atmosphere to retain heat<li>
-                        <li>Mercury takes 59 Earth days to complete one rotation.</li>
-                        <li>Mercury’s surface is heavily cratered, resembling our Moon</li>
-                    </ul>
-                </li>
-            </ul>
-            
-        </div>    
+        <div class="container-fluid px-12 py-10 bg-black text-white rounded-3xl shadow tablet:text-[4rem] font-itim">
+            <h2 class="font-bold mb-4 w-auto text-[2rem] laptop:text-[4rem] actual:text-[8rem]">Planet info</h2>
+            <div class="overflow-x-auto">
+                <table class="table-auto w-full border-collapse border border-gray-700 text-left min-w-[500px]">
+                    <thead>
+                        <tr>
+                            <th class="border border-white px-4 py-2 text-[1.4rem] laptop:text-[2rem] actual:text-[4rem]">Attribute</th>
+                            <th class="border border-white px-4 py-2 text-[1.4rem] laptop:text-[2rem] actual:text-[4rem]">Details</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="border border-white px-4 py-2 text-[1.4rem] laptop:text-[2rem] actual:text-[4rem]">Size</td>
+                            <td class="border border-white px-4 py-2 text-[1.4rem] laptop:text-[2rem] actual:text-[4rem]">4,880 kilometers</td>
+                        </tr>
+                        <tr>
+                            <td class="border border-white px-4 py-2 text-[1.4rem] laptop:text-[2rem] actual:text-[4rem]">Distance from the sun</td>
+                            <td class="border border-white px-4 py-2 text-[1.4rem] laptop:text-[2rem] actual:text-[4rem]">57.9 million kilometers</td>
+                        </tr>
+                        <tr>
+                            <td class="border border-white px-4 py-2 text-[1.4rem] laptop:text-[2rem] actual:text-[4rem]">Composition</td>
+                            <td class="border border-white px-4 py-2 text-[1.4rem] laptop:text-[2rem] actual:text-[4rem]">
+                                Mercury is a terrestrial planet with a dense, metal-rich core.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="border border-white px-4 py-2 text-[1.4rem] laptop:text-[2rem] actual:text-[4rem]">Interesting facts</td>
+                            <td class="border border-white px-4 py-2 text-[1.4rem] laptop:text-[2rem] actual:text-[4rem]">
+                                <ul class="list-disc pl-10 phones:pl-14 text-slate-400">
+                                    <li>Mercury has almost no atmosphere to retain heat.</li>
+                                    <li>Mercury takes 59 Earth days to complete one rotation.</li>
+                                    <li>Mercury’s surface is heavily cratered, resembling our Moon.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
     </div>
+    
         
     <footer class = "mt-20 border-t-4 border-black px-6  ">
         <div class = "container-fluid  flex justify-between gap-5 font-itim ">
