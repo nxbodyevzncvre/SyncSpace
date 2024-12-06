@@ -80,30 +80,43 @@
     </div>
                 
     <div class="container-fluid px-5">
-        <div class = "container-fluid px-12 py-10  bg-black text-white  rounded-3xl shadow  tablet:text-[4rem] font-itim">
-            <h2 class = "font-bold mb-4 w-auto text-[2rem] laptop:text-[4rem] actual:text-[8rem]">Planet info</h2>
-            <ul class = "list-disc text-[1.4rem] laptop:text-[3rem] laptop:px-6 actual:text-[5rem] actual:px-12">
-                <li>
-                    <p><strong>Size:</strong> 49,244 kilometers</p>
-                </li>
-                <li>
-                    <p><strong>Distance from the sun:</strong> 4.5 billion kilometers</p>
-                </li>
-                <li>
-                    <p><strong>Composition:</strong>Neptune is an ice giant with a hydrogen-helium atmosphere and a mantle of water, ammonia, and methane ices.</p>
-                </li>
-                <li>
-                    <p><strong>Interesting facts:</strong></p>
-                        <ul class = "list-disc text-[1.4rem] px-5 laptop:text-[2rem] actual:text-[4rem] text-slate-400 actual:px-10">
-                            <li>Neptune has the strongest winds in the Solar System.</li>
-                            <li>It has 14 known moons, with Triton being the largest.</li>
-                            <li>Neptune was the first planet discovered through mathematical predictions.</li>
-                        </ul>
-                </li>
-            </ul>
-            
-        </div>    
-    </div>
+        <div class="container-fluid px-12 py-10 bg-black text-white rounded-3xl shadow tablet:text-[4rem] font-itim">
+            <h2 class="font-bold mb-4 w-auto text-[2rem] laptop:text-[4rem] actual:text-[8rem]">Planet info</h2>
+            <div class="overflow-x-auto">
+                <table class="table-auto w-full border-collapse border border-gray-700 text-left min-w-[500px]">
+                    <thead>
+                        <tr>
+                            <th class="border border-white px-4 py-2 text-[1.4rem] laptop:text-[2rem] actual:text-[4rem]">Attribute</th>
+                            <th class="border border-white px-4 py-2 text-[1.4rem] laptop:text-[2rem] actual:text-[4rem]">Details</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="border border-white px-4 py-2 text-[1.4rem] laptop:text-[2rem] actual:text-[4rem]">Size</td>
+                            <td class="border border-white px-4 py-2 text-[1.4rem] laptop:text-[2rem] actual:text-[4rem]">49,244 kilometers</td>
+                        </tr>
+                        <tr>
+                            <td class="border border-white px-4 py-2 text-[1.4rem] laptop:text-[2rem] actual:text-[4rem]">Distance from the sun</td>
+                            <td class="border border-white px-4 py-2 text-[1.4rem] laptop:text-[2rem] actual:text-[4rem]">4.5 billion kilometers</td>
+                        </tr>
+                        <tr>
+                            <td class="border border-white px-4 py-2 text-[1.4rem] laptop:text-[2rem] actual:text-[4rem]">Composition</td>
+                            <td class="border border-white px-4 py-2 text-[1.4rem] laptop:text-[2rem] actual:text-[4rem]">Neptune is an ice giant with a hydrogen-helium atmosphere and a mantle of water, ammonia, and methane ices.</td>
+                        </tr>
+                        <tr>
+                            <td class="border border-white px-4 py-2 text-[1.4rem] laptop:text-[2rem] actual:text-[4rem]">Interesting facts</td>
+                            <td class="border border-white px-4 py-2 text-[1.4rem] laptop:text-[2rem] actual:text-[4rem]">
+                                <ul class="list-disc pl-10 phones:pl-14 text-slate-400">
+                                    <li>Neptune has the strongest winds in the Solar System.</li>
+                                    <li>It has 14 known moons, with Triton being the largest.</li>
+                                    <li>Neptune was the first planet discovered through mathematical predictions.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
         
     <footer class = "mt-20 border-t-4 border-black px-6  ">
         <div class = "container-fluid  flex justify-between gap-5 font-itim ">
