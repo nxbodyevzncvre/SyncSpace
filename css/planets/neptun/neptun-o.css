@@ -1360,6 +1360,10 @@ video {
     padding-left: 3.5rem;
   }
 
+  .phones\:pl-16 {
+    padding-left: 4rem;
+  }
+
   .phones\:text-\[1\.5rem\] {
     font-size: 1.5rem;
   }
@@ -1656,10 +1660,6 @@ video {
 
   .laptop\:text-\[4rem\] {
     font-size: 4rem;
-  }
-
-  .laptop\:text-\[5rem\] {
-    font-size: 5rem;
   }
 }
 

@@ -644,6 +644,10 @@ video {
   display: flex;
 }
 
+.table {
+  display: table;
+}
+
 .hidden {
   display: none;
 }
@@ -844,6 +848,18 @@ video {
   width: 100vw;
 }
 
+.min-w-\[500px\] {
+  min-width: 500px;
+}
+
+.table-auto {
+  table-layout: auto;
+}
+
+.border-collapse {
+  border-collapse: collapse;
+}
+
 .-translate-x-1\/2 {
   --tw-translate-x: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -926,6 +942,10 @@ video {
   gap: 3rem;
 }
 
+.overflow-x-auto {
+  overflow-x: auto;
+}
+
 .scroll-smooth {
   scroll-behavior: smooth;
 }
@@ -950,6 +970,10 @@ video {
   border-radius: 0.75rem;
 }
 
+.border {
+  border-width: 1px;
+}
+
 .border-2 {
   border-width: 2px;
 }
@@ -961,6 +985,11 @@ video {
 .border-black {
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity, 1));
+}
+
+.border-gray-700 {
+  --tw-border-opacity: 1;
+  border-color: rgb(55 65 81 / var(--tw-border-opacity, 1));
 }
 
 .border-white {
@@ -1000,12 +1029,12 @@ video {
   --tw-bg-opacity: 0.4;
 }
 
-.bg-\[url\(\'\/img\/slider-photo\.png\'\)\] {
-  background-image: url('/img/slider-photo.png');
+.bg-\[url\(\'img\/slider-photo\.png\'\)\] {
+  background-image: url('img/slider-photo.png');
 }
 
-.bg-\[url\(\'\/img\/solar-sys\.png\'\)\] {
-  background-image: url('/img/solar-sys.png');
+.bg-\[url\(\'img\/solar-sys\.png\'\)\] {
+  background-image: url('img/solar-sys.png');
 }
 
 .bg-cover {
@@ -1087,8 +1116,16 @@ video {
   padding-bottom: 0.75rem;
 }
 
+.pl-10 {
+  padding-left: 2.5rem;
+}
+
 .ps-5 {
   padding-inline-start: 1.25rem;
+}
+
+.text-left {
+  text-align: left;
 }
 
 .text-center {
@@ -1446,6 +1483,14 @@ html{
     width: 9vw;
   }
 
+  .phones\:pl-14 {
+    padding-left: 3.5rem;
+  }
+
+  .phones\:pl-16 {
+    padding-left: 4rem;
+  }
+
   .phones\:text-\[1\.5rem\] {
     font-size: 1.5rem;
   }
@@ -1743,10 +1788,6 @@ html{
   .laptop\:text-\[4rem\] {
     font-size: 4rem;
   }
-
-  .laptop\:text-\[5rem\] {
-    font-size: 5rem;
-  }
 }
 
 @media (min-width: 1920px) {
@@ -1874,6 +1915,10 @@ html{
 
   .actual\:text-\[2\.2rem\] {
     font-size: 2.2rem;
+  }
+
+  .actual\:text-\[3rem\] {
+    font-size: 3rem;
   }
 
   .actual\:text-\[4rem\] {
