@@ -812,20 +812,28 @@ video {
   width: 4rem;
 }
 
-.w-\[4vw\] {
-  width: 4vw;
-}
-
 .w-\[50vw\] {
   width: 50vw;
+}
+
+.w-\[5wv\] {
+  width: 5wv;
 }
 
 .w-\[6rem\] {
   width: 6rem;
 }
 
+.w-\[6vw\] {
+  width: 6vw;
+}
+
 .w-\[6wv\] {
   width: 6wv;
+}
+
+.w-\[7vw\] {
+  width: 7vw;
 }
 
 .w-\[9rem\] {
@@ -1157,6 +1165,10 @@ video {
   font-size: 0.6rem;
 }
 
+.text-\[0\.7rem\] {
+  font-size: 0.7rem;
+}
+
 .text-\[1\.4rem\] {
   font-size: 1.4rem;
 }
@@ -1471,12 +1483,12 @@ html{
     margin-left: 1rem;
   }
 
-  .phones\:w-\[3vw\] {
-    width: 3vw;
+  .phones\:w-\[6vw\] {
+    width: 6vw;
   }
 
-  .phones\:w-\[4vw\] {
-    width: 4vw;
+  .phones\:w-\[7vw\] {
+    width: 7vw;
   }
 
   .phones\:pl-14 {
@@ -1552,14 +1564,6 @@ html{
 
   .tablet2\:text-\[1rem\] {
     font-size: 1rem;
-  }
-
-  .tablet2\:text-\[2rem\] {
-    font-size: 2rem;
-  }
-
-  .tablet2\:text-\[3rem\] {
-    font-size: 3rem;
   }
 
   .tablet2\:text-\[5rem\] {
@@ -1774,6 +1778,10 @@ html{
 
   .laptop\:text-\[1\.5rem\] {
     font-size: 1.5rem;
+  }
+
+  .laptop\:text-\[1rem\] {
+    font-size: 1rem;
   }
 
   .laptop\:text-\[2rem\] {
