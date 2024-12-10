@@ -768,16 +768,8 @@ video {
   width: 2.25rem;
 }
 
-.w-\[10vw\] {
-  width: 10vw;
-}
-
 .w-\[13rem\] {
   width: 13rem;
-}
-
-.w-\[13vw\] {
-  width: 13vw;
 }
 
 .w-\[18rem\] {
@@ -820,12 +812,20 @@ video {
   width: 4rem;
 }
 
+.w-\[4vw\] {
+  width: 4vw;
+}
+
 .w-\[50vw\] {
   width: 50vw;
 }
 
 .w-\[6rem\] {
   width: 6rem;
+}
+
+.w-\[6vw\] {
+  width: 6vw;
 }
 
 .w-\[6wv\] {
@@ -1161,6 +1161,10 @@ video {
   font-size: 0.6rem;
 }
 
+.text-\[0\.7rem\] {
+  font-size: 0.7rem;
+}
+
 .text-\[1\.4rem\] {
   font-size: 1.4rem;
 }
@@ -1348,16 +1352,16 @@ video {
     margin-left: 1rem;
   }
 
-  .phones\:w-\[10vw\] {
-    width: 10vw;
-  }
-
   .phones\:w-\[3vw\] {
     width: 3vw;
   }
 
-  .phones\:w-\[9vw\] {
-    width: 9vw;
+  .phones\:w-\[4vw\] {
+    width: 4vw;
+  }
+
+  .phones\:w-\[6vw\] {
+    width: 6vw;
   }
 
   .phones\:pl-14 {
@@ -1423,6 +1427,10 @@ video {
     padding-bottom: 0.75rem;
   }
 
+  .tablet2\:text-\[0\.7rem\] {
+    font-size: 0.7rem;
+  }
+
   .tablet2\:text-\[1\.5rem\] {
     font-size: 1.5rem;
   }
@@ -1441,6 +1449,10 @@ video {
 
   .tablet2\:text-\[3rem\] {
     font-size: 3rem;
+  }
+
+  .tablet2\:text-\[5rem\] {
+    font-size: 5rem;
   }
 }
 
@@ -1592,12 +1604,12 @@ video {
     text-align: end;
   }
 
-  .tablet\:text-\[1\.5rem\] {
-    font-size: 1.5rem;
+  .tablet\:text-\[1\.3rem\] {
+    font-size: 1.3rem;
   }
 
-  .tablet\:text-\[1\.7rem\] {
-    font-size: 1.7rem;
+  .tablet\:text-\[1\.5rem\] {
+    font-size: 1.5rem;
   }
 
   .tablet\:text-\[1rem\] {
@@ -1644,14 +1656,13 @@ video {
     padding-right: 4rem;
   }
 
-  .laptop\:px-6 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-  }
-
   .laptop\:py-8 {
     padding-top: 2rem;
     padding-bottom: 2rem;
+  }
+
+  .laptop\:text-\[0\.7rem\] {
+    font-size: 0.7rem;
   }
 
   .laptop\:text-\[1\.5rem\] {
@@ -1778,11 +1789,6 @@ video {
 
   .actual\:w-\[90rem\] {
     width: 90rem;
-  }
-
-  .actual\:px-10 {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
   }
 
   .actual\:px-12 {
