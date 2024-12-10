@@ -1661,12 +1661,12 @@ video {
     padding-bottom: 2rem;
   }
 
-  .laptop\:text-\[0\.7rem\] {
-    font-size: 0.7rem;
-  }
-
   .laptop\:text-\[1\.5rem\] {
     font-size: 1.5rem;
+  }
+
+  .laptop\:text-\[1rem\] {
+    font-size: 1rem;
   }
 
   .laptop\:text-\[2rem\] {
@@ -1802,6 +1802,10 @@ video {
 
   .actual\:text-\[2\.2rem\] {
     font-size: 2.2rem;
+  }
+
+  .actual\:text-\[2rem\] {
+    font-size: 2rem;
   }
 
   .actual\:text-\[3rem\] {
