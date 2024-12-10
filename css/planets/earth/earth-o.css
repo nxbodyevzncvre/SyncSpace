@@ -828,6 +828,10 @@ video {
   width: 6rem;
 }
 
+.w-\[6vw\] {
+  width: 6vw;
+}
+
 .w-\[6wv\] {
   width: 6wv;
 }
@@ -1029,12 +1033,12 @@ video {
   --tw-bg-opacity: 0.4;
 }
 
-.bg-\[url\(\'\/img\/slider-photo\.png\'\)\] {
-  background-image: url('/img/slider-photo.png');
+.bg-\[url\(\'img\/solar-sys\.png\'\)\] {
+  background-image: url('img/solar-sys.png');
 }
 
-.bg-\[url\(\'\/img\/solar-sys\.png\'\)\] {
-  background-image: url('/img/solar-sys.png');
+.bg-slider {
+  background-image: url('/img/slider-photo.png');
 }
 
 .bg-cover {
@@ -1350,6 +1354,10 @@ video {
 
   .phones\:w-\[10vw\] {
     width: 10vw;
+  }
+
+  .phones\:w-\[6vw\] {
+    width: 6vw;
   }
 
   .phones\:w-\[9vw\] {
@@ -1788,6 +1796,10 @@ video {
 
   .actual\:text-\[2\.2rem\] {
     font-size: 2.2rem;
+  }
+
+  .actual\:text-\[3rem\] {
+    font-size: 3rem;
   }
 
   .actual\:text-\[4rem\] {
