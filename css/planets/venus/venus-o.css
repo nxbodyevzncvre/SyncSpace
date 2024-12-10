@@ -776,10 +776,6 @@ video {
   width: 13rem;
 }
 
-.w-\[13vw\] {
-  width: 13vw;
-}
-
 .w-\[18rem\] {
   width: 18rem;
 }
@@ -1029,12 +1025,12 @@ video {
   --tw-bg-opacity: 0.4;
 }
 
-.bg-\[url\(\'\/img\/slider-photo\.png\'\)\] {
-  background-image: url('/img/slider-photo.png');
+.bg-\[url\(\'img\/solar-sys\.png\'\)\] {
+  background-image: url('img/solar-sys.png');
 }
 
-.bg-\[url\(\'\/img\/solar-sys\.png\'\)\] {
-  background-image: url('/img/solar-sys.png');
+.bg-slider {
+  background-image: url('/img/slider-photo.png');
 }
 
 .bg-cover {
@@ -1348,8 +1344,8 @@ video {
     margin-left: 1rem;
   }
 
-  .phones\:w-\[10vw\] {
-    width: 10vw;
+  .phones\:w-\[3vw\] {
+    width: 3vw;
   }
 
   .phones\:w-\[9vw\] {
@@ -1640,14 +1636,13 @@ video {
     padding-right: 4rem;
   }
 
-  .laptop\:px-6 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-  }
-
   .laptop\:py-8 {
     padding-top: 2rem;
     padding-bottom: 2rem;
+  }
+
+  .laptop\:text-\[1\.5rem\] {
+    font-size: 1.5rem;
   }
 
   .laptop\:text-\[2rem\] {
@@ -1772,11 +1767,6 @@ video {
     width: 90rem;
   }
 
-  .actual\:px-10 {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-  }
-
   .actual\:px-12 {
     padding-left: 3rem;
     padding-right: 3rem;
@@ -1788,6 +1778,10 @@ video {
 
   .actual\:text-\[2\.2rem\] {
     font-size: 2.2rem;
+  }
+
+  .actual\:text-\[3rem\] {
+    font-size: 3rem;
   }
 
   .actual\:text-\[4rem\] {

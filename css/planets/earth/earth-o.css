@@ -828,10 +828,6 @@ video {
   width: 6rem;
 }
 
-.w-\[6vw\] {
-  width: 6vw;
-}
-
 .w-\[6wv\] {
   width: 6wv;
 }
@@ -1356,8 +1352,8 @@ video {
     width: 10vw;
   }
 
-  .phones\:w-\[6vw\] {
-    width: 6vw;
+  .phones\:w-\[3vw\] {
+    width: 3vw;
   }
 
   .phones\:w-\[9vw\] {
@@ -1656,6 +1652,10 @@ video {
   .laptop\:py-8 {
     padding-top: 2rem;
     padding-bottom: 2rem;
+  }
+
+  .laptop\:text-\[1\.5rem\] {
+    font-size: 1.5rem;
   }
 
   .laptop\:text-\[2rem\] {

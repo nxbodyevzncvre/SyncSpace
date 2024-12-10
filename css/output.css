@@ -768,16 +768,8 @@ video {
   width: 2.25rem;
 }
 
-.w-\[10vw\] {
-  width: 10vw;
-}
-
 .w-\[13rem\] {
   width: 13rem;
-}
-
-.w-\[13vw\] {
-  width: 13vw;
 }
 
 .w-\[18rem\] {
@@ -818,6 +810,10 @@ video {
 
 .w-\[4rem\] {
   width: 4rem;
+}
+
+.w-\[4vw\] {
+  width: 4vw;
 }
 
 .w-\[50vw\] {
@@ -1475,12 +1471,12 @@ html{
     margin-left: 1rem;
   }
 
-  .phones\:w-\[10vw\] {
-    width: 10vw;
+  .phones\:w-\[3vw\] {
+    width: 3vw;
   }
 
-  .phones\:w-\[9vw\] {
-    width: 9vw;
+  .phones\:w-\[4vw\] {
+    width: 4vw;
   }
 
   .phones\:pl-14 {
@@ -1564,6 +1560,10 @@ html{
 
   .tablet2\:text-\[3rem\] {
     font-size: 3rem;
+  }
+
+  .tablet2\:text-\[5rem\] {
+    font-size: 5rem;
   }
 }
 
@@ -1715,12 +1715,12 @@ html{
     text-align: end;
   }
 
-  .tablet\:text-\[1\.5rem\] {
-    font-size: 1.5rem;
+  .tablet\:text-\[1\.3rem\] {
+    font-size: 1.3rem;
   }
 
-  .tablet\:text-\[1\.7rem\] {
-    font-size: 1.7rem;
+  .tablet\:text-\[1\.5rem\] {
+    font-size: 1.5rem;
   }
 
   .tablet\:text-\[1rem\] {
@@ -1767,14 +1767,13 @@ html{
     padding-right: 4rem;
   }
 
-  .laptop\:px-6 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-  }
-
   .laptop\:py-8 {
     padding-top: 2rem;
     padding-bottom: 2rem;
+  }
+
+  .laptop\:text-\[1\.5rem\] {
+    font-size: 1.5rem;
   }
 
   .laptop\:text-\[2rem\] {
@@ -1897,11 +1896,6 @@ html{
 
   .actual\:w-\[90rem\] {
     width: 90rem;
-  }
-
-  .actual\:px-10 {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
   }
 
   .actual\:px-12 {

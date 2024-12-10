@@ -17,8 +17,8 @@
         <nav class = "container-fluid  px-4  gap-0 flex justify-between w-full  bg-black laptop:px-16 laptop:py-8 font-itim actual:px-12 flex-wrap tablet2:flex-nowrap">
             <div class = "flex text-white  justify-between items-center w-full px-4">
                 <a href="" class = "flex font-bold items-center py-2 justify-start tablets2:py-5 gap-3">
-                    <img src="../../img/logo.png" class = "w-[13vw] phones:w-[10vw] actual:w-[5vw] " alt="logo">
-                    <span class="flex-nowrap  text-[1rem] laptop:text-[3rem] actual:text-[5rem]">SyncSpace</span>
+                    <img src="../../img/logo.png" class = "w-[3vw] phones:w-[3vw] actual:w-[5vw] " alt="logo">
+                    <span class="flex-nowrap  text-[1rem] laptop:text-[1.5rem] actual:text-[5rem]">SyncSpace</span>
                 </a>
                 <div class = "tablet2:hidden relative flex items-start justify-end ">
                     <button type = "button" class = "mobile-menu-button">
@@ -80,35 +80,50 @@
     </div>
                 
     <div class="container-fluid px-5">
-        <div class = "container-fluid px-12 py-10  bg-black text-white  rounded-3xl shadow  tablet:text-[4rem] font-itim">
-            <h2 class = "font-bold mb-4 w-auto text-[2rem] laptop:text-[4rem] actual:text-[8rem]">Planet info</h2>
-            <ul class = "list-disc text-[1.4rem] laptop:text-[3rem] laptop:px-6 actual:text-[5rem] actual:px-12">
-                <li>
-                    <p><strong>Size:</strong> 139,820 kilometers</p>
-                </li>
-                <li>
-                    <p><strong>Distance from the sun:</strong>  778.5 million kilometers</p>
-                </li>
-                <li>
-                    <p><strong>Composition:</strong>Jupiter is a gas giant composed mostly of hydrogen and helium, with no solid surface.</p>
-                </li>
-                <li>
-                    <p><strong>Interesting facts:</strong></p>
-                    <ul class = "list-disc text-[1.4rem] px-5 laptop:text-[2rem] actual:text-[4rem] text-slate-400 actual:px-10">
-                        <li>Jupiter is the largest planet in the Solar System.</li>
-                        <li>It has 92 confirmed moons, including the largest, Ganymede.</li>
-                        <li>It's Great Red Spot is a giant storm persisting for centuries.</li>
-                    </ul>
-                </li>
-            </ul>
-            
-        </div>    
+        <div class="container-fluid px-12 py-10 bg-black text-white rounded-3xl shadow tablet:text-[4rem] font-itim">
+            <h2 class="font-bold mb-4 w-auto text-[2rem] laptop:text-[4rem] actual:text-[8rem]">Planet info</h2>
+            <div class="overflow-x-auto">
+                <table class="table-auto w-full border-collapse border border-white text-left min-w-[500px]">
+                    <thead>
+                        <tr>
+                            <th class="border border-white px-4 py-2 text-[1.4rem] laptop:text-[2rem] actual:text-[4rem]">Attribute</th>
+                            <th class="border border-white px-4 py-2 text-[1.4rem] laptop:text-[2rem] actual:text-[4rem]">Details</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="border border-white px-4 py-2 text-[1.4rem] laptop:text-[2rem] actual:text-[4rem]">Size</td>
+                            <td class="border border-white px-4 py-2 text-[1.4rem] laptop:text-[2rem] actual:text-[4rem]">139,820 kilometers</td>
+                        </tr>
+                        <tr>
+                            <td class="border border-white px-4 py-2 text-[1.4rem] laptop:text-[2rem] actual:text-[4rem]">Distance from the sun</td>
+                            <td class="border border-white px-4 py-2 text-[1.4rem] laptop:text-[2rem] actual:text-[4rem]">778.5 million kilometers</td>
+                        </tr>
+                        <tr>
+                            <td class="border border-white px-4 py-2 text-[1.4rem] laptop:text-[2rem] actual:text-[4rem]">Composition</td>
+                            <td class="border border-white px-4 py-2 text-[1.4rem] laptop:text-[2rem] actual:text-[4rem]">Jupiter is a gas giant composed mostly of hydrogen and helium, with no solid surface.</td>
+                        </tr>
+                        <tr>
+                            <td class="border border-white px-4 py-2 text-[1.4rem] laptop:text-[2rem] actual:text-[4rem]">Interesting facts</td>
+                            <td class="border border-white px-4 py-2 text-[1.4rem] laptop:text-[2rem] actual:text-[4rem]">
+                                <ul class="list-disc pl-10 phones:pl-14 text-slate-400">
+                                    <li>Jupiter is the largest planet in the Solar System.</li>
+                                    <li>It has 92 confirmed moons, including the largest, Ganymede.</li>
+                                    <li>Its Great Red Spot is a giant storm persisting for centuries.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
     </div>
+    
         
     <footer class = "mt-20 border-t-4 border-black px-6  ">
         <div class = "container-fluid  flex justify-between gap-5 font-itim ">
-            <p class = "text-[1rem] tablet:text-[2.5rem] ">SyncSpace inc. All rights reserved</p>
-            <p class = "text-[1rem] tablet:text-[2.5rem]">danilignashov1705@gmail.com</p>
+            <p class = "text-[1rem] tablet:text-[1.5rem] ">SyncSpace inc. All rights reserved</p>
+            <p class = "text-[1rem] tablet:text-[1.5rem]">danilignashov1705@gmail.com</p>
         </div>
     </footer>
 

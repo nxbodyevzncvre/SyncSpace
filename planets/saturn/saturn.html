@@ -17,7 +17,7 @@
         <nav class = "container-fluid  px-4  gap-0 flex justify-between w-full  bg-black laptop:px-16 laptop:py-8 font-itim actual:px-12 flex-wrap tablet2:flex-nowrap">
             <div class = "flex text-white  justify-between items-center w-full px-4">
                 <a href="" class = "flex font-bold items-center py-2 justify-start tablets2:py-5 gap-3">
-                    <img src="../../img/logo.png" class = "w-[13vw] phones:w-[10vw] actual:w-[5vw] " alt="logo">
+                    <img src="../../img/logo.png" class = "w-[3vw] phones:w-[3vw] actual:w-[5vw] " alt="logo">
                     <span class="flex-nowrap  text-[1rem] laptop:text-[3rem] actual:text-[5rem]">SyncSpace</span>
                 </a>
                 <div class = "tablet2:hidden relative flex items-start justify-end ">
@@ -80,35 +80,49 @@
     </div>
                 
     <div class="container-fluid px-5">
-        <div class = "container-fluid px-12 py-10  bg-black text-white  rounded-3xl shadow  tablet:text-[4rem] font-itim">
-            <h2 class = "font-bold mb-4 w-auto text-[2rem] laptop:text-[4rem] actual:text-[8rem]">Planet info</h2>
-            <ul class = "list-disc text-[1.4rem] laptop:text-[3rem] laptop:px-6 actual:text-[5rem] actual:px-12">
-                <li>
-                    <p><strong>Size:</strong> 116,460 kilometers</p>
-                </li>
-                <li>
-                    <p><strong>Distance from the sun:</strong> 1.4 billion kilometers</p>
-                </li>
-                <li>
-                    <p><strong>Composition:</strong> Saturn is a gas giant composed mainly of hydrogen and helium, surrounded by an extensive ring system.</p>
-                </li>
-                <li>
-                    <p><strong>Interesting facts:</strong></p>
-                        <ul class = "list-disc text-[1.4rem] px-5 laptop:text-[2rem] actual:text-[4rem] text-slate-400 actual:px-10">
-                            <li>Saturn’s rings are made of ice and rock particles.</li>
-                            <li>It has 145 confirmed moons, including Titan, which has a dense atmosphere.</li>
-                            <li>Saturn is the least dense planet and could float in water.</li>
-                        </ul>
-                </li>
-            </ul>
-            
-        </div>    
+        <div class="container-fluid px-12 py-10 bg-black text-white rounded-3xl shadow tablet:text-[4rem] font-itim">
+            <h2 class="font-bold mb-4 w-auto text-[2rem] laptop:text-[4rem] actual:text-[8rem]">Planet info</h2>
+            <div class="overflow-x-auto">
+                <table class="table-auto w-full border-collapse border border-gray-700 text-left">
+                    <thead>
+                        <tr>
+                            <th class="border border-white px-4 py-2 text-[1rem] laptop:text-[2rem] actual:text-[4rem]">Attribute</th>
+                            <th class="border border-white px-4 py-2 text-[1rem] laptop:text-[2rem] actual:text-[4rem]">Details</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="border border-white px-4 py-2 text-[1rem] laptop:text-[2rem] actual:text-[4rem]">Size</td>
+                            <td class="border border-white px-4 py-2 text-[1rem] laptop:text-[2rem] actual:text-[4rem]">116,460 kilometers</td>
+                        </tr>
+                        <tr>
+                            <td class="border border-white px-4 py-2 text-[1rem] laptop:text-[2rem] actual:text-[4rem]">Distance from the sun</td>
+                            <td class="border border-white px-4 py-2 text-[1rem] laptop:text-[2rem] actual:text-[4rem]">1.4 billion kilometers</td>
+                        </tr>
+                        <tr>
+                            <td class="border border-white px-4 py-2 text-[1rem] laptop:text-[2rem] actual:text-[4rem]">Composition</td>
+                            <td class="border border-white px-4 py-2 text-[1rem] laptop:text-[2rem] actual:text-[4rem]">Saturn is a gas giant composed mainly of hydrogen and helium, surrounded by an extensive ring system.</td>
+                        </tr>
+                        <tr>
+                            <td class="border border-white px-4 py-2 text-[1rem] laptop:text-[2rem] actual:text-[4rem]">Interesting facts</td>
+                            <td class="border border-white px-4 py-2 text-[1rem] laptop:text-[2rem] actual:text-[4rem]">
+                                <ul class="list-disc pl-10 phones:pl-14 text-slate-400">
+                                    <li>Saturn’s rings are made of ice and rock particles.</li>
+                                    <li>It has 145 confirmed moons, including Titan, which has a dense atmosphere.</li>
+                                    <li>Saturn is the least dense planet and could float in water.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
     </div>
         
     <footer class = "mt-20 border-t-4 border-black px-6  ">
         <div class = "container-fluid  flex justify-between gap-5 font-itim ">
-            <p class = "text-[1rem] tablet:text-[2.5rem] ">SyncSpace inc. All rights reserved</p>
-            <p class = "text-[1rem] tablet:text-[2.5rem]">danilignashov1705@gmail.com</p>
+            <p class = "text-[1rem] tablet:text-[1.5rem] ">SyncSpace inc. All rights reserved</p>
+            <p class = "text-[1rem] tablet:text-[1.5rem]">danilignashov1705@gmail.com</p>
         </div>
     </footer>
 

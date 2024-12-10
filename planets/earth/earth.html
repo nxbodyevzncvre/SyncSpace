@@ -17,7 +17,7 @@
         <nav class = "container-fluid  px-4  gap-0 flex justify-between w-full  bg-black laptop:px-16 laptop:py-8 font-itim actual:px-12 flex-wrap tablet2:flex-nowrap">
             <div class = "flex text-white  justify-between items-center w-full px-4">
                 <a href="" class = "flex font-bold items-center py-2 justify-start tablets2:py-5 gap-3">
-                    <img src="../../img/logo.png" class = "w-[6vw] phones:w-[6vw] actual:w-[5vw] " alt="logo">
+                    <img src="../../img/logo.png" class = "w-[3vw] phones:w-[3vw] actual:w-[5vw] " alt="logo">
                     <span class="flex-nowrap  text-[1rem] laptop:text-[3rem] actual:text-[5rem]">SyncSpace</span>
                 </a>
                 <div class = "tablet2:hidden relative flex items-start justify-end ">
@@ -57,8 +57,8 @@
             </div>
             
             <div class="bg-blue-500 p-4 rounded-lg shadow">
-                <h3 class="text-[2rem] font-mono tablet2:text-[3rem] actual:text-[4rem]">Explore more</h3>
-                <ul class="px-4 text-[1.5rem] list-disc phones:ml-4 tablet2:text-[1.5rem] laptop:text-[2rem] laptop:px-10">
+                <h3 class="text-[1.5rem] font-mono tablet2:text-[1.5rem] actual:text-[4rem]">Explore more</h3>
+                <ul class="px-4 text-[1.5rem] list-disc phones:ml-4 tablet2:text-[1.5rem] laptop:text-[1.5rem] laptop:px-10">
                     <li>
                         <a href="https://science.nasa.gov/solar-system/moons/" target = "_blank" class="hover:text-white transition delay-75 ">
                             Moons
@@ -80,30 +80,45 @@
     </div>
                 
     <div class="container-fluid px-5">
-        <div class = "container-fluid px-12 py-10  bg-black text-white  rounded-3xl shadow  tablet:text-[4rem] font-itim">
-            <h2 class = "font-bold mb-4 w-auto text-[2rem] laptop:text-[4rem] actual:text-[8rem]">Planet info</h2>
-            <ul class = "list-disc text-[1.4rem] laptop:text-[3rem] laptop:px-6 actual:text-[5rem] actual:px-12">
-                <li>
-                    <p><strong>Size:</strong> 12,742 kilometers</p>
-                </li>
-                <li>
-                    <p><strong>Distance from the sun:</strong>  149.6 million kilometers</p>
-                </li>
-                <li>
-                    <p><strong>Composition:</strong>Earth is a terrestrial planet with a solid crust, a mantle, a liquid outer core, and a solid inner core.</p>
-                </li>
-                <li>
-                    <p><strong>Interesting facts:</strong></p>
-                    <ul class = "list-disc text-[1.4rem] px-5 laptop:text-[2rem] actual:text-[4rem] text-slate-400 actual:px-10">
-                        <li>Earth is the only planet known to support life.</li>
-                        <li>About 71% of Earth’s surface is covered in water</li>
-                        <li>Earth’s magnetic field protects it from harmful solar radiation.</li>
-                    </ul>
-                </li>
-            </ul>
-            
-        </div>    
+        <div class="container-fluid px-12 py-10 bg-black text-white rounded-3xl shadow tablet:text-[4rem] font-itim">
+            <h2 class="font-bold mb-4 w-auto text-[2rem] laptop:text-[4rem] actual:text-[8rem]">Planet info</h2>
+            <div class="overflow-x-auto">
+                <table class="table-auto w-full border-collapse border border-white text-left min-w-[500px]">
+                    <thead>
+                        <tr>
+                            <th class="border border-white px-4 py-2 text-[1.4rem] laptop:text-[2rem] actual:text-[4rem]">Attribute</th>
+                            <th class="border border-white px-4 py-2 text-[1.4rem] laptop:text-[2rem] actual:text-[4rem]">Details</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="border border-white px-4 py-2 text-[1.4rem] laptop:text-[2rem] actual:text-[4rem]">Size</td>
+                            <td class="border border-white px-4 py-2 text-[1.4rem] laptop:text-[2rem] actual:text-[4rem]">12,742 kilometers</td>
+                        </tr>
+                        <tr>
+                            <td class="border border-white px-4 py-2 text-[1.4rem] laptop:text-[2rem] actual:text-[4rem]">Distance from the sun</td>
+                            <td class="border border-white px-4 py-2 text-[1.4rem] laptop:text-[2rem] actual:text-[4rem]">149.6 million kilometers</td>
+                        </tr>
+                        <tr>
+                            <td class="border border-white px-4 py-2 text-[1.4rem] laptop:text-[2rem] actual:text-[4rem]">Composition</td>
+                            <td class="border border-white px-4 py-2 text-[1.4rem] laptop:text-[2rem] actual:text-[4rem]">Earth is a terrestrial planet with a solid crust, a mantle, a liquid outer core, and a solid inner core.</td>
+                        </tr>
+                        <tr>
+                            <td class="border border-white px-4 py-2 text-[1.4rem] laptop:text-[2rem] actual:text-[4rem]">Interesting facts</td>
+                            <td class="border border-white px-4 py-2 text-[1.4rem] laptop:text-[2rem] actual:text-[4rem]">
+                                <ul class="list-disc pl-10 phones:pl-14 text-slate-400">
+                                    <li>Earth is the only planet known to support life.</li>
+                                    <li>About 71% of Earth’s surface is covered in water.</li>
+                                    <li>Earth’s magnetic field protects it from harmful solar radiation.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
     </div>
+    
         
     <footer class = "mt-20 border-t-4 border-black px-6  ">
         <div class = "container-fluid  flex justify-between gap-5 font-itim ">
