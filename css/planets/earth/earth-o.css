@@ -1352,10 +1352,6 @@ video {
     margin-left: 1rem;
   }
 
-  .phones\:w-\[3vw\] {
-    width: 3vw;
-  }
-
   .phones\:w-\[4vw\] {
     width: 4vw;
   }
@@ -1427,10 +1423,6 @@ video {
     padding-bottom: 0.75rem;
   }
 
-  .tablet2\:text-\[0\.7rem\] {
-    font-size: 0.7rem;
-  }
-
   .tablet2\:text-\[1\.5rem\] {
     font-size: 1.5rem;
   }
@@ -1441,14 +1433,6 @@ video {
 
   .tablet2\:text-\[1rem\] {
     font-size: 1rem;
-  }
-
-  .tablet2\:text-\[2rem\] {
-    font-size: 2rem;
-  }
-
-  .tablet2\:text-\[3rem\] {
-    font-size: 3rem;
   }
 
   .tablet2\:text-\[5rem\] {
@@ -1802,10 +1786,6 @@ video {
 
   .actual\:text-\[2\.2rem\] {
     font-size: 2.2rem;
-  }
-
-  .actual\:text-\[2rem\] {
-    font-size: 2rem;
   }
 
   .actual\:text-\[3rem\] {
