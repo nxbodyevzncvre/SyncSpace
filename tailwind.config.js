@@ -34,6 +34,9 @@ module.exports = {
       colors:{
         block: "#333333",
       },
+      backgroundImage:{
+        "slider":"url('/img/slider-photo.png')"
+      }
 
 
     },
