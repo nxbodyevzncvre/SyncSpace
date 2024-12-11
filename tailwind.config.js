@@ -7,6 +7,9 @@ module.exports = {
   purge: [
     './**/*.html'
   ],
+  safelist:[
+    'bg-slider',
+  ],
   // content: ["index.html", 
   //   "/planets/mercury/mercury.html",
   //   "/planets/venus/venus.html", 
