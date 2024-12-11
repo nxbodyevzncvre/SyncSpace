@@ -788,6 +788,10 @@ video {
   width: 30rem;
 }
 
+.w-\[30vw\] {
+  width: 30vw;
+}
+
 .w-\[37rem\] {
   width: 37rem;
 }
@@ -834,6 +838,10 @@ video {
 
 .w-\[7vw\] {
   width: 7vw;
+}
+
+.w-\[8vw\] {
+  width: 8vw;
 }
 
 .w-\[9rem\] {
@@ -1038,7 +1046,7 @@ video {
 }
 
 .bg-slider {
-  background-image: url('/img/slider-photo.png');
+  background-image: url('./img/slider-photo.png');
 }
 
 .bg-cover {
@@ -1491,6 +1499,10 @@ html{
     width: 7vw;
   }
 
+  .phones\:w-\[8vw\] {
+    width: 8vw;
+  }
+
   .phones\:pl-14 {
     padding-left: 3.5rem;
   }
@@ -1896,6 +1908,10 @@ html{
 
   .actual\:w-\[63rem\] {
     width: 63rem;
+  }
+
+  .actual\:w-\[6vw\] {
+    width: 6vw;
   }
 
   .actual\:w-\[70rem\] {
