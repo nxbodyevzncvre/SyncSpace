@@ -788,6 +788,10 @@ video {
   width: 30rem;
 }
 
+.w-\[30vw\] {
+  width: 30vw;
+}
+
 .w-\[37rem\] {
   width: 37rem;
 }
