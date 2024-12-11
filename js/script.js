@@ -43,8 +43,7 @@ vid.addEventListener("timeupdate", function () {
 
 
 
-const validateForm = (event) => {
-    event.preventDefault();
+const validateForm = () => {
 
     const name = document.getElementById("name").value.trim();
     const email = document.getElementById("email").value.trim();
@@ -68,8 +67,10 @@ const validateForm = (event) => {
         return false;
     }
     alert("Your info was sent to our Database");
+    
     window.location.href = "/thanks.html"
     return true
+    
     
 }
 
@@ -80,4 +81,9 @@ const validateEmail = (email) => {
 
 
 const form = document.getElementById("contact-form");
-form.addEventListener("submit", validateForm);
+
+form.addEventListener("submit", (event) => {
+    if (!validateForm()) {
+        event.preventDefault(); 
+    }
+});
