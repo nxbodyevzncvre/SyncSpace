@@ -39,7 +39,7 @@ module.exports = {
       },
       backgroundImage:{
         "slider":"url('/img/Ai Generated Alien Abduction Ufo.jpg')"
-      }
+      },
 
 
     },
