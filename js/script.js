@@ -40,12 +40,12 @@ vid.addEventListener("timeupdate", function () {
     }
 });
 
-// Form validation
-const form = document.getElementById("contact-form");
 
 
 
-const validateForm = () => {
+const validateForm = (event) => {
+    event.preventDefault();
+
     const name = document.getElementById("name").value.trim();
     const email = document.getElementById("email").value.trim();
     const message = document.getElementById("message").value.trim();
@@ -69,7 +69,7 @@ const validateForm = () => {
     }
     alert("Your info was sent to our Database");
     window.location.href = "../thanks.html"
-    return false; // Prevent form submission
+    return true
     
 }
 
@@ -79,3 +79,5 @@ const validateEmail = (email) => {
 }
 
 
+const form = document.getElementById("contact-form");
+form.addEventListener("submit", validateForm);
