@@ -812,12 +812,12 @@ video {
   width: 4rem;
 }
 
-.w-\[4vw\] {
-  width: 4vw;
-}
-
 .w-\[50vw\] {
   width: 50vw;
+}
+
+.w-\[5wv\] {
+  width: 5wv;
 }
 
 .w-\[6rem\] {
@@ -830,6 +830,10 @@ video {
 
 .w-\[6wv\] {
   width: 6wv;
+}
+
+.w-\[7vw\] {
+  width: 7vw;
 }
 
 .w-\[9rem\] {
@@ -1352,12 +1356,12 @@ video {
     margin-left: 1rem;
   }
 
-  .phones\:w-\[4vw\] {
-    width: 4vw;
-  }
-
   .phones\:w-\[6vw\] {
     width: 6vw;
+  }
+
+  .phones\:w-\[7vw\] {
+    width: 7vw;
   }
 
   .phones\:pl-14 {
