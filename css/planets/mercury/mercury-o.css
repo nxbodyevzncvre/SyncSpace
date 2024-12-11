@@ -788,6 +788,10 @@ video {
   width: 30rem;
 }
 
+.w-\[30vw\] {
+  width: 30vw;
+}
+
 .w-\[37rem\] {
   width: 37rem;
 }
@@ -834,6 +838,10 @@ video {
 
 .w-\[7vw\] {
   width: 7vw;
+}
+
+.w-\[8vw\] {
+  width: 8vw;
 }
 
 .w-\[9rem\] {
@@ -1038,7 +1046,7 @@ video {
 }
 
 .bg-slider {
-  background-image: url('/img/slider-photo.png');
+  background-image: url('./img/slider-photo.png');
 }
 
 .bg-cover {
@@ -1367,6 +1375,10 @@ video {
 
   .phones\:w-\[7vw\] {
     width: 7vw;
+  }
+
+  .phones\:w-\[8vw\] {
+    width: 8vw;
   }
 
   .phones\:pl-14 {
@@ -1776,6 +1788,10 @@ video {
     width: 63rem;
   }
 
+  .actual\:w-\[6vw\] {
+    width: 6vw;
+  }
+
   .actual\:w-\[70rem\] {
     width: 70rem;
   }
@@ -1797,16 +1813,16 @@ video {
     font-size: 2.2rem;
   }
 
-  .actual\:text-\[3rem\] {
-    font-size: 3rem;
-  }
-
   .actual\:text-\[4rem\] {
     font-size: 4rem;
   }
 
   .actual\:text-\[5rem\] {
     font-size: 5rem;
+  }
+
+  .actual\:text-\[6rem\] {
+    font-size: 6rem;
   }
 
   .actual\:text-\[8rem\] {

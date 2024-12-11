@@ -1046,7 +1046,7 @@ video {
 }
 
 .bg-slider {
-  background-image: url('./img/slider-photo.png');
+  background-image: url('/img/slider-photo.png');
 }
 
 .bg-cover {
@@ -1935,16 +1935,16 @@ html{
     font-size: 2.2rem;
   }
 
-  .actual\:text-\[3rem\] {
-    font-size: 3rem;
-  }
-
   .actual\:text-\[4rem\] {
     font-size: 4rem;
   }
 
   .actual\:text-\[5rem\] {
     font-size: 5rem;
+  }
+
+  .actual\:text-\[6rem\] {
+    font-size: 6rem;
   }
 
   .actual\:text-\[8rem\] {
