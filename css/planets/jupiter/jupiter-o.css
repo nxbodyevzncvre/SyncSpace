@@ -1783,6 +1783,10 @@ video {
     width: 63rem;
   }
 
+  .actual\:w-\[6vw\] {
+    width: 6vw;
+  }
+
   .actual\:w-\[70rem\] {
     width: 70rem;
   }
