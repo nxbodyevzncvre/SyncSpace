@@ -840,6 +840,10 @@ video {
   width: 7vw;
 }
 
+.w-\[8vw\] {
+  width: 8vw;
+}
+
 .w-\[9rem\] {
   width: 9rem;
 }
@@ -1366,6 +1370,10 @@ video {
 
   .phones\:w-\[7vw\] {
     width: 7vw;
+  }
+
+  .phones\:w-\[8vw\] {
+    width: 8vw;
   }
 
   .phones\:pl-14 {
