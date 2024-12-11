@@ -68,7 +68,7 @@ const validateForm = (event) => {
         return false;
     }
     alert("Your info was sent to our Database");
-    window.location.href = "../thanks.html"
+    window.location.href = "/thanks.html"
     return true
     
 }
