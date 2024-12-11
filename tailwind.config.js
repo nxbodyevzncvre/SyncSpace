@@ -38,7 +38,7 @@ module.exports = {
         block: "#333333",
       },
       backgroundImage:{
-        "slider":"url('/img/Ai Generated Alien Abduction Ufo.jpg')",
+        "slider":"url('/img/slider-photo.png')",
         "solar-sys":"url('/img/solar-sys.png')"
       },
 

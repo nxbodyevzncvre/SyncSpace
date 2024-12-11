@@ -13,6 +13,7 @@
     
 </head>
 <body class = "h-screen">
+    <!-- HEADER -->
     <header class="bg-black text-white flex ">
         <nav class = "container-fluid  px-4  gap-0 flex justify-between w-full  bg-black laptop:px-16 laptop:py-8 font-itim actual:px-12 flex-wrap tablet2:flex-nowrap">
             <div class = "flex text-white  justify-between items-center w-full px-4">
@@ -20,6 +21,7 @@
                     <img src="../../img/logo.png" class = "w-[6vw] phones:w-[6vw] actual:w-[5vw] " alt="logo">
                     <span class="flex-nowrap  text-[2rem] laptop:text-[3rem] actual:text-[5rem]">SyncSpace</span>
                 </a>
+                <!-- MOBILE MENU BUTTON FOR OPENING NAV BAR -->
                 <div class = "tablet2:hidden relative flex items-start justify-end ">
                     <button type = "button" class = "mobile-menu-button">
                         <img src="../../img/image.png" class = "w-[6wv] h-[6vh]" alt="">    
@@ -27,7 +29,7 @@
                 </div>
             </div>
             
-            
+            <!-- NAV BAR CLOSED TILL 1000PX -->
             <div class = "hidden w-1/2  tablet:justify-end items-center flex-col justify-start text-[1rem] bg-black text-white  pb-3 tablet2:my-auto  tablet2:flex tablet2:flex-row  tablet2:text-[1.8rem] laptop:text-[3rem]  actual:text-[4rem] navigation-menu">
                 <a href="../../index.html" class = "px-4 py-4 block hover:bg-white hover:text-black hover:rounded-3xl rounded-3xl transition delay-75">
                     Solar System    
@@ -42,13 +44,14 @@
         </nav>
     </header>
     
+    <!-- PLANET BIO -->
     <div class="container-fluid flex justify-center min-h-[50vh] mt-10 mb-2 tablet:mb-10 gap-5 px-5 flex-wrap tablet2:flex-nowrap">
         <div class="relative w-full  flex justify-center items-center h-[50vh]">
             <img 
-                src="../../img/backround/Galaxy Starry Night.jpg" 
+                src="../../img/backround/GalaxyStarryNight.jpg" 
                 alt=""
                 class = "absolute top-0 left-0 w-full h-full object-cover rounded-xl">
-            <img src="../../img/slider/Venus Remove Background.png" alt="" class = "absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 tablet2:w-[30vw] w-[40vw] tablet:w-[30vw] laptop:w-[30vw] actual:w-[30vw]">
+            <img src="../../img/slider/VenusRemoveBackground.png" alt="" class = "absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 tablet2:w-[30vw] w-[40vw] tablet:w-[30vw] laptop:w-[30vw] actual:w-[30vw]">
         </div>
         <aside class="tablet:w-1/2 tablet:full w-screen flex flex-col gap-4 mx-auto font-itim  ">
             <div class="bg-gray-400 p-4 text-start text-white rounded-lg shadow">
@@ -79,6 +82,7 @@
         </aside>
     </div>
                 
+    <!-- INFORMATION ABOUT PLANET -->
     <div class="container-fluid px-5">
         <div class="container-fluid px-12 py-10 bg-black text-white rounded-3xl shadow tablet:text-[4rem] font-itim">
             <h2 class="font-bold mb-4 w-auto text-[2rem] laptop:text-[4rem] actual:text-[8rem]">Planet info</h2>
@@ -119,6 +123,7 @@
         </div>
     </div>
         
+    <!-- FOOTER  -->    
     <footer class = "mt-20 border-t-4 border-black px-6  ">
         <div class = "container-fluid  flex justify-between gap-5 font-itim ">
             <p class = "text-[1rem] tablet:text-[1.5rem] actual:text-[4rem]">SyncSpace inc. All rights reserved</p>

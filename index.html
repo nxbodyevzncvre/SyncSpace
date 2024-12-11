@@ -3,6 +3,9 @@
     <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Solar System website">
+    <meta name="keywords" content="Solar Space, Milky Way, Sun, Planets, Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptun">
+    <meta name="author" content="John Doe">
     <title>SyncSpace</title>
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
@@ -15,7 +18,7 @@
 </head>
 <body class = "bg-black font-itim  text-white w-screen scroll-smooth text-[16px]">
 
-    
+    <!-- VIDEO BACKGROUND OF SPACE -->
     <div class="  w-screen min-h-screen flex flex-col ">
         <video
             class="absolute top-0 left-0 w-full h-full object-cover -z-10 hidden middle:flex"
@@ -23,16 +26,18 @@
             loop
             muted
             playsinline
-            >
-        <source src="img/Milky Way Time-lapse 4K.mp4" type="video/mp4">
+            id ="vid">
+        <source src="img/MilkyWayTime-lapse4K.mp4" type="video/mp4">
         </video>
-        <header class=" text-white flex z-50 fixed">
-            <nav class = "container-fluid   flex justify-between laptop:px-16 laptop:py-8 font-itim  flex-wrap tablet2:flex-nowrap gap-0 tablet2:gap-10 w-screen">
+        <!-- HEADER  -->
+        <header class=" text-white flex z-50 tablet2:fixed">
+            <nav class = "container-fluid   flex justify-between laptop:px-16 laptop:py-8 font-itim  flex-wrap tablet2:flex-nowrap gap-0 tablet2:gap-10 laptop:gap-20 w-screen">
                 <div class = "flex text-white  justify-between items-center w-full px-4">
                     <a href="" class = "flex font-bold items-center py-2 justify-start tablets2:py-5 gap-3">
                         <img src="img/logo.png" class = "w-[7vw] phones:w-[7vw] actual:w-[5vw] " alt="logo">
                         <span class="flex-nowrap  text-[1.5rem] laptop:text-[3rem] actual:text-[5rem] font-inter">SyncSpace</span>
                     </a>
+                    <!-- MOBILE BUTTON FOR OPENING NAV BAR -->
                     <div class = "tablet2:hidden relative flex items-start justify-end ">
                         <button type = "button" class = "mobile-menu-button">
                             <img src="img/image.png" class = "w-[5wv] h-[5vh]" alt="">    
@@ -40,9 +45,9 @@
                     </div>
                 </div>
                 
-                
+                <!-- HIDDEN TILL 1000PX -->
                 <div class = "hidden w-1/2  tablet:justify-end tablet:pe-20 items-center flex-col justify-center  text-[1rem]   text-white py-2 tablet2:pb-3 tablet2:my-auto  tablet2:flex tablet2:flex-row middle:text-[1.3rem] tablet:text-[1.3rem]  actual:text-[2.2rem] extra:text-[3.3rem] navigation-menu ">
-                    <a href="https://hubblesite.org/home" target="_blank" class = "py-4 block hover:bg-white hover:text-black hover:rounded-3xl rounded-3xl transition delay-75">
+                    <a href="https://hubblesite.org/home" target="_blank" class = "px-4 py-4 block hover:bg-white hover:text-black hover:rounded-3xl rounded-3xl transition delay-75">
                         Hubble    
                     </a>
                     <a href="http://nasa.gov" target = "_blank" class = "px-4 py-4 block hover:bg-white hover:text-black hover:rounded-3xl rounded-3xl transition-all delay-75">
@@ -54,15 +59,17 @@
                 </div>
             </nav>
         </header>
+        
+        <!-- SOLAR SYSTEM WITH EACH PLANET -->
         <div class="middle:flex-1 middle:flex middle:items-center middle:justify-center relative middle:my-10 hidden  ">
            
             <div class=" hidden solar-system relative middle:flex justify-center items-center ">
                 
                     <!-- <div class="absolute inset-0 bg-black/20"></div> -->
 
-                </div>
+                <!-- </div> -->
                 <div class="sun w-[4rem] h-[4rem] actual:w-[18rem] actual:h-[18rem] extra:w-[15rem] extra:h-[15rem] absolute">
-                    <img src="img/solar-system-anim/Astronomy Space Icons.png" class = " bg-no-repeat bg-center" alt="">
+                    <img src="img/solar-system-anim/AstronomySpaceIcons.png" class = " bg-no-repeat bg-center" alt="">
                 </div>
                 <div class="orbit absolute w-[6rem] h-[6rem] tablet:w-[6rem] tablet:h-[6rem] actual:w-[25rem] actual:h-[25rem] extra:w-[20rem] extra:h-[20rem] rounded-full border-2 border-white animate-spin-1">
                     <img src="img/solar-system-anim/mercury.png" class="w-5 h-5 extra:w-10 extra:h-10 absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2" alt="Mercury">
@@ -89,9 +96,10 @@
                     <img src="img/solar-system-anim/neptun.png" class="w-10 h-10  extra:w-24 extra:h-24 absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2" alt="Neptune">
                 </div>
             </div>
+            <!-- ADAPTIVE BLOCK FOR SMALL SCREENS(REPLACING SOLAR SYSTEM) -->
             <div class="relative h-screen flex flex-col justify-center items-center bg-black text-white middle:hidden">
 
-                <img src="img/Ai Generated Alien Abduction Ufo.jpg" alt="UFO Background" 
+                <img src="/img/AiGeneratedAlienAbductionUfo.jpg" alt="UFO Background" 
                      class="absolute inset-0 w-screen h-full object-cover opacity-80">
                 
 
@@ -114,46 +122,53 @@
             
         </div>
     </div>
+
+    <!-- ABOUT - WHO WE ARE BLOCK (BUTTON HIDES ON 1400 WIDTH)-->
     <div class = "container-fluid my-10 ">
-    <div class = "w-screen flex flex-col items-center justify-between text-white text-lg phones:text-[1.5rem] tablet2:text-[5rem] tablet:text-[3rem]  gap-[3rem] tablet2:gap-[10rem] actual:text-[6rem] leading-normal px-8">
-        <div class = " flex justify-between w-full items-center flex-wrap">
-            <div>
-                <h2 class = "font-bold text-slate-400 ">Who we are?</h2>
-            </div>
-            <button class="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 tablet:hidden" id = "data-menu">
-                <img class="transform block  first2" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/faq-8-svg2dark.svg" alt="toggler" id = "img-toggler">
-            </button>
-            <div class = "hidden tablet:block mt-6 w-screen paragraph">
-                <p class = " ">
-                    We’re Sync Space, bringing the wonders of the cosmos closer to everyone. From planets to black holes, we spark curiosity and show that space is part of our lives and future.
-                </p>
-            </div>
-        </div>
-        <div class = " flex justify-between w-full items-center flex-wrap  ">
-            <button class ="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 tablet:hidden" id = "data-menu2">
-                <img class="transform block " src="https://tuk-cdn.s3.amazonaws.com/can-uploader/faq-8-svg2dark.svg" alt="toggler" id = "img-toggler">
-            </button>
-            <div class="tablet:text-end">
-                <h2 class = "font-bold text-slate-400">The Universe is Yours to Explore</h2>
-            </div>
-            <div class = "hidden tablet:block mt-6 w-screen paragraph2">
-                <p class = "tablet:text-start text-end">
-                    Space belongs to everyone. Dive into the mysteries of the universe with us—free and accessible for all. Let's explore together! <span class = "underline">Absolutely for free</span>
-                </p>
+        <div class = "w-screen flex flex-col items-center justify-between text-white text-lg phones:text-[1.5rem] tablet2:text-[5rem] tablet:text-[3rem]  gap-[3rem] tablet2:gap-[10rem] actual:text-[6rem] leading-normal px-8">
+            <div class = " flex justify-between w-full items-center flex-wrap">
+                <div>
+                    <h2 class = "font-bold text-slate-400 ">Who we are?</h2>
+                </div>
+                <button class="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 tablet:hidden" id = "data-menu">
+                    <img class="transform block  first2" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/faq-8-svg2dark.svg" alt="toggler">
+                </button>
+                <div class = "hidden tablet:block mt-6 w-screen paragraph">
+                    <p class = " ">
+                        We’re Sync Space, bringing the wonders of the cosmos closer to everyone. From planets to black holes, we spark curiosity and show that space is part of our lives and future.
+                    </p>
+                </div>
+            </div> 
+
+            <!-- SECOND WHO WE ARE BLOCK (BUTTON HIDES ON WIDTH OF 1400) -->
+            <div class = " flex justify-between w-full items-center flex-wrap  ">
+                <button class ="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 tablet:hidden" id = "data-menu2">
+                    <img class="transform block " src="https://tuk-cdn.s3.amazonaws.com/can-uploader/faq-8-svg2dark.svg" alt="toggler" >
+                </button>
+                <div class="tablet:text-end">
+                    <h2 class = "font-bold text-slate-400">The Universe is Yours to Explore</h2>
+                </div>
+                <div class = "hidden tablet:block mt-6 w-screen paragraph2">
+                    <p class = "tablet:text-start text-end">
+                        Space belongs to everyone. Dive into the mysteries of the universe with us—free and accessible for all. Let's explore together! <span class = "underline">Absolutely for free</span>
+                    </p>
+                </div>
             </div>
         </div>
     </div>
-</div>
+
+    <!-- SLIDER PLANETS -->
 
     <div class="swiper w-screen h-screen ">
 
         <div class="swiper-wrapper text-[1.8rem] middle:text-[3rem] extra:text-[7rem] text-center ">
-
+ 
+            <!-- FIRST SLIDE - MERCURY -->
           <div class="swiper-slide bg-slider bg-no-repeat bg-center bg-cover flex items-center w-screen">
             <div class="container-fluid  flex flex-row justify-around items-center mx-auto ">
                 <div class = "" >
                     <a href="planets/mercury/mercury.html" class = "">
-                        <img src="img/slider/image copy 4.png"  class = "extra:w-[50vw]" alt="">
+                        <img src="img/slider/imagecopy4.png"  class = "extra:w-[50vw]" alt="">
                     </a>
                     
                 </div>
@@ -163,11 +178,13 @@
                 </div>
             </div>
           </div>
+
+          <!-- SECOND SLIDE - VENUS -->
           <div class="swiper-slide bg-slider bg-no-repeat bg-center bg-cover flex items-center ">
             <div class="container-fluid  flex flex-row justify-around items-center mx-auto text-center">
                 <div class = "actual:ps-10">
                     <a href="planets/venus/venus.html">
-                        <img src="img/slider/Venus Remove Background.png" class = " actual:w-[40vw] extra:w-[30vw]" alt="">
+                        <img src="img/slider/VenusRemoveBackground.png" class = " actual:w-[40vw] extra:w-[30vw]" alt="">
                     </a>
                     
                 </div>
@@ -177,6 +194,8 @@
                 </div>
             </div>
           </div>
+
+          <!-- THIRD SLIDE - EARTH -->
           <div class="swiper-slide bg-slider bg-no-repeat bg-center bg-cover flex items-center">
             <div class="container-fluid  flex flex-row justify-around items-center mx-auto ">
                 <div>
@@ -191,11 +210,13 @@
                 </div>
             </div>
           </div>
+
+          <!-- FOURTH SLIDE - MARS -->
           <div class="swiper-slide bg-slider bg-no-repeat bg-center bg-cover flex items-center ">
             <div class="container-fluid  flex flex-row justify-around items-center mx-auto  ">
                 <div class = "">
                     <a href="planets/mars/mars.html">
-                        <img src="img/slider/Mars Image Preview.png" class = "actual:w-[40vw]" alt="">
+                        <img src="img/slider/MarsImagePreview.png" class = "actual:w-[40vw]" alt="">
                     </a>
                     
                 </div>
@@ -205,11 +226,13 @@
                 </div>
             </div>
           </div>
+
+          <!-- FIFTH SLIDE - JUPITER -->
           <div class="swiper-slide bg-slider bg-no-repeat bg-center bg-cover flex items-center">
             <div class="container-fluid  flex flex-row justify-around items-center mx-auto">
                 <div class = "">
                     <a href="planets/jupiter/jupiter.html">
-                        <img src="img/slider/Jupiter Remove Background.png" class = "actual:w-[40vw]" alt="">
+                        <img src="img/slider/JupiterRemoveBackground.png" class = "actual:w-[40vw]" alt="">
                     </a>
                 </div>
                 <div class = "flex justify-center flex-col items-center tablet2:w-1/3">
@@ -218,11 +241,13 @@
                 </div>
             </div>
           </div>
+
+          <!-- SIXTH SLIDE - SATURN -->
           <div class="swiper-slide bg-slider bg-no-repeat bg-center bg-cover flex items-center">
             <div class="container-fluid  flex flex-row justify-around items-center mx-auto">
                 <div class = "">
                     <a href="planets/saturn/saturn.html">
-                        <img src="img/slider/image copy 2.png" class = "actual:w-[50vw]" alt="">
+                        <img src="img/slider/imagecopy2.png" class = "actual:w-[50vw]" alt="">
                     </a>
                     
                 </div>
@@ -234,11 +259,12 @@
             </div>
           </div>
 
+          <!-- SEVENTH SLIDE - URANUS -->
           <div class="swiper-slide bg-slider bg-no-repeat bg-center bg-cover flex items-center">
             <div class="container-fluid  flex flex-row justify-around items-center mx-auto">
                 <div class = "">
                     <a href="planets/uranus/uranus.html">
-                        <img src="img/slider/Uranus Remove Background.png" class = "extra:w-[40vw]" alt="">
+                        <img src="img/slider/UranusRemoveBackground.png" class = "extra:w-[40vw]" alt="">
                     </a>
         
                 </div>
@@ -248,11 +274,13 @@
                 </div>
             </div>
           </div>
+
+          <!-- EIGTH SLIDE - NEPTUN -->
           <div class="swiper-slide bg-slider bg-no-repeat bg-center bg-cover flex items-center">
             <div class="container-fluid  flex flex-row justify-around items-center mx-auto">
                 <div class = "">
                     <a href="planets/neptun/neptun.html">
-                        <img src="img/slider/image copy 3.png" class = "extra:w-[40vw]" alt="">
+                        <img src="img/slider/imagecopy3.png" class = "extra:w-[40vw]" alt="">
                     </a>
                     
                 </div>
@@ -265,30 +293,43 @@
           
         </div>
       
-        <!-- If we need navigation buttons -->
+        <!-- NAVIGATION SLIDER BUTTONS -->
         <div class="swiper-button-prev bg-black rounded-xl  hidden w-[3vw] h-[5vh] tablet:flex absolute  "></div>
         <div class="swiper-button-next bg-black rounded-xl hidden w-[3vw] h-[5vh] tablet:flex absolute "></div>
       
 
       </div>
 
-
-    <div class = "bg-solar-sys py-24 font-mono" id = "contact">
-        <div class = "text-center text-[2rem] tablet:text-[3rem] extra:text-[10rem] text-white">
+      <!-- FOOTER FORM -->
+      <footer class="bg-solar-sys py-24 font-mono tablet:h-screen" id="contact">
+        <div class="text-center text-[2rem] tablet:text-[3rem] extra:text-[10rem] text-white">
             <p>
                 Want to join us? <br>Link your contact below 
             </p>
         </div>
-        <div class = "flex items-center mx-auto justify-center text-[2.5rem] tablet:text-[2rem] extra:text-[10rem] bg-opacity-40 w-1/3 rounded-[5%] ">
-            <form action="" class = "flex flex-col mx-auto rounded-3xl p-[1rem]">
-                <label for="email" class = "text-[2rem] tablet:text-[1.5rem] extra:text-[10rem] text-blue-300" >E-mail</label>
-                <input type="text" name="email" id = "email" class = "text-black ps-5 text-[1rem] tablet:text-[2rem] extra:text-[5rem] rounded-3xl focus:rounded-none focus:outline-none transition-all delay-150">
-                <label for="name" class = "text-[2rem] tablet:text-[1.5rem] extra:text-[10rem] text-blue-300" >Name</label>
-                <input type="text" name = "name" id = "name" class = "text-black ps-5 text-[1rem] tablet:text-[2rem] extra:text-[5rem] rounded-3xl focus:rounded-none focus:outline-none transition-all delay-150">
-                <button class="bg-white text-black border-black  mx-auto text-[1.5rem] tablet:text-[2.5rem] extra:text-[7rem] px-4 py-1 rounded-3xl mt-5 hover:bg-slate-700 hover:rounded-xl hover:font-bold hover:text-white transition-all ease-linear delay-150 " id = "send-info" onclick='alert("Your info was sent to out Database.")' >Send</button>
+        <div class="flex items-center mx-auto justify-center text-[2.5rem] tablet:text-[2rem] extra:text-[10rem] bg-opacity-40 w-1/3 rounded-[5%]">
+            <form id="contact-form" class="flex flex-col mx-auto rounded-3xl p-[1rem]" onsubmit="return validateForm()" action="/thanks.html">
+                <label for="name" class="text-[2rem] tablet:text-[1.5rem] extra:text-[10rem] text-blue-300">Name</label>
+                <input type="text" name="name" id="name" class="text-black ps-5 text-[1rem] tablet:text-[2rem] extra:text-[5rem] rounded-3xl focus:rounded-none focus:outline-none transition-all delay-150" required>
+    
+                <label for="email" class="text-[2rem] tablet:text-[1.5rem] extra:text-[10rem] text-blue-300">E-mail</label>
+                <input type="email" name="email" id="email" class="text-black ps-5 text-[1rem] tablet:text-[2rem] extra:text-[5rem] rounded-3xl focus:rounded-none focus:outline-none transition-all delay-150" required>
+    
+                <label for="message" class="text-[2rem] tablet:text-[1.5rem] extra:text-[10rem] text-blue-300">Message</label>
+                <textarea name="message" id="message" rows="4" class="text-black ps-5 text-[1rem] tablet:text-[2rem] extra:text-[5rem] rounded-3xl focus:rounded-none focus:outline-none transition-all delay-150" required></textarea>
+    
+                <div class="flex items-center text-center justify-center">
+                    <input type="checkbox" id="custom-checkbox" class="w-10 h-10 appearance-none bg-white border-2 border-red-500 rounded-md checked:bg-red-500 cursor-pointer">
+                    <label for="custom-checkbox" class="ml-3 text-[2rem] actual:text-[5rem]">I agree to the terms</label>
+                </div>
+                
+                <button type="submit" class="bg-white text-black border-black mx-auto text-[1.5rem] tablet:text-[2.5rem] extra:text-[7rem] px-4 py-1 rounded-3xl mt-5 hover:bg-slate-700 hover:rounded-xl hover:font-bold hover:text-white transition-all ease-linear delay-150">
+                    Send
+                </button>
             </form>
         </div>
-    </div>
+    </footer>
+    
 
 
 
