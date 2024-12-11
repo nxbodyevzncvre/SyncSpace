@@ -1041,8 +1041,8 @@ video {
   --tw-bg-opacity: 0.4;
 }
 
-.bg-\[url\(\'\/img\/slider-photo\.png\'\)\] {
-  background-image: url('/img/slider-photo.png');
+.bg-\[url\(\'img\/slider-photo\.png\'\)\] {
+  background-image: url('img/slider-photo.png');
 }
 
 .bg-\[url\(\'img\/solar-sys\.png\'\)\] {
