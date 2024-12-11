@@ -68,10 +68,14 @@ const validateForm = () => {
         return false;
     }
     alert("Your info was sent to our Database");
+    window.location.href = "../thanks.html"
     return false; // Prevent form submission
+    
 }
 
 const validateEmail = (email) => {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return emailRegex.test(email);
 }
+
+
