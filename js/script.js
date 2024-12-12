@@ -85,6 +85,6 @@ form.addEventListener("submit", (event) => {
         event.preventDefault(); 
     }else{
         event.preventDefault();
-        window.location.href = "../thanks.html";
+        window.location.href = "https://nxbodyevzncvre.github.io/thanks.html";
     }
 });
